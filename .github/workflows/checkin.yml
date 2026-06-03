@@ -1,0 +1,23 @@
+name: Auto Check-in
+
+on:
+  schedule:
+    # 北京时间 00:04 = UTC 16:04
+    - cron: '4 16 * * *'
+  workflow_dispatch:
+
+jobs:
+  checkin:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Run check-in
+        run: node checkin.js
+        env:
+          CHECKIN_USER_ID: ${{ secrets.CHECKIN_USER_ID }}
+        continue-on-error: false
