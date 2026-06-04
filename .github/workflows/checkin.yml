@@ -2,9 +2,8 @@ name: Auto Check-in
 
 on:
   schedule:
-    # 北京时间 00:25
-    - cron: "38 0 * * *"
-      timezone: "Asia/Shanghai"
+    - cron: "45 0 * * *"
+      timezone: Asia/Shanghai
   workflow_dispatch:
 
 jobs:
