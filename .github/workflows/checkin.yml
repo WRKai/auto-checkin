@@ -2,8 +2,9 @@ name: Auto Check-in
 
 on:
   schedule:
-    # 北京时间 00:04 = UTC 16:04
-    - cron: '4 16 * * *'
+    # 北京时间 00:25
+    - cron: '25 0 * * *'
+      timezone: 'Asia/Shanghai'
   workflow_dispatch:
 
 jobs:

@@ -38,7 +38,7 @@ async function checkin(userId) {
 }
 
 async function main() {
-  const userId = process.env.CHECKIN_USER_ID || '21162';
+  const userId = process.env.CHECKIN_USER_ID;
 
   if (typeof fetch !== 'function') {
     console.error('❌ 当前 Node.js 版本不支持全局 fetch，请使用 Node >= 18');
