@@ -2,7 +2,7 @@ name: Auto Check-in
 
 on:
   schedule:
-    - cron: "45 0 * * *"
+    - cron: "1 0 * * *"
       timezone: Asia/Shanghai
   workflow_dispatch:
 
