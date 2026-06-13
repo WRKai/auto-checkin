@@ -20,4 +20,5 @@ jobs:
         run: node checkin.js
         env:
           CHECKIN_USER_ID: ${{ secrets.CHECKIN_USER_ID }}
+          COOKIE: ${{ secrets.COOKIE }}
         continue-on-error: false

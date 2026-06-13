@@ -17,3 +17,22 @@ fetch("https://api.iamhc.cn/api/user/checkin", {
     "body": null,
     "method": "POST"
 });
+fetch("https://api.iamhc.cn/api/user/checkin", {
+    "headers": {
+        "accept": "application/json, text/plain, */*",
+        "accept-language": "zh-CN,zh;q=0.9",
+        "cache-control": "no-store",
+        "new-api-user": "21162",
+        "priority": "u=1, i",
+        "sec-ch-ua": "\"Microsoft Edge\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "cookie": "session=MTc4MDQyMDc4OXxEWDhFQVFMX2dBQUJFQUVRQUFEX2t2LUFBQVVHYzNSeWFXNW5EQVFBQW1sa0EybHVkQVFFQVA2bFZBWnpkSEpwYm1jTUNnQUlkWE5sY201aGJXVUdjM1J5YVc1bkRBa0FCM0ZwWVc1bVlXNEdjM1J5YVc1bkRBWUFCSEp2YkdVRGFXNTBCQUlBQWdaemRISnBibWNNQ0FBR2MzUmhkSFZ6QTJsdWRBUUNBQUlHYzNSeWFXNW5EQWNBQldkeWIzVndCbk4wY21sdVp3d0pBQWRrWldaaGRXeDB8SA0HxMf3eMx3nJyOvV-jFKopAJ0pJ26Hop54nsFIkis=; acw_tc=3df10e2417813548693118443e7206ce36cf56714789a70502934c537c; cdn_sec_tc=3df10e2417813548693118443e7206ce36cf56714789a70502934c537c",
+        "Referer": "https://api.iamhc.cn/console/personal"
+    },
+    "body": null,
+    "method": "POST"
+});
